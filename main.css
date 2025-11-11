@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+#main-navig {
+
+}
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    vertical-align: bottom;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0px;
+}
+
+article {
+    max-width: 65%;
+    display: inline-block;
+}
+
+aside {
+    max-width: 25%;
+    display: inline-block;
+}
