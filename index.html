@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vojta in Vancouver</title>
     <link rel="stylesheet" href="./main.css">
      <style>
         body {
-            background-color: lightgrey;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
         }
     </style>
 </head>
@@ -15,50 +14,45 @@
     <header>
         <nav id="main-nav" aria-label="Main navigation">
             <div id="header-nametag">
-                <a href="#">ViV</a>
+                <a href="#">VinV</a>
             </div>
 
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="pages/about.html">About</a></li>
             </ul>
         </nav>
-
     </header>
     
     <main class="main-container">
     
-    <article id="main-article">
-        <h1>Vojta in Vancouver</h1>
-        <p>Hello, I am Vojta and this is going to be my blog soon.</p>
-    </article>
+        <!-- example of block element -->
+        <article id="main-article">
+            <h1>Vojta in Vancouver</h1>
+            <p>Hello, welcome to my blog about life in Vancouver.</p>
+        </article>
 
-    <!-- New layout row -->
-    <div class="content-row">
+        <div class="content-row">
 
-        <section id="gallery">
-            <img src="./images/van1.jpg" alt="Vancouver photo 1" class="gallery-image tall">
-            <img src="./images/van2.jpg" alt="Vancouver photo 2" class="gallery-image wide">
-            <img src="./images/van3.jpg" alt="Vancouver photo 3" class="gallery-image square">
-            <img src="./images/van4.jpg" alt="Vancouver photo 4" class="gallery-image tall">
-            <img src="./images/van5.jpg" alt="Vancouver photo 5" class="gallery-image wide">
+            <section id="gallery">
+                <img src="./images/van1.jpg" alt="Vancouver photo 1" class="gallery-image tall">
+                <img src="./images/van2.jpg" alt="Vancouver photo 2" class="gallery-image wide">
+                <img src="./images/van3.jpg" alt="Vancouver photo 3" class="gallery-image square">
+                <img src="./images/van4.jpg" alt="Vancouver photo 4" class="gallery-image tall">
+                <img src="./images/van5.jpg" alt="Vancouver photo 5" class="gallery-image wide">
+            </section>
             
-        </section>
-
-        <aside id="aside-text">
-            <h2>TITLE 2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. ...</p>
-        </aside>
-
-    </div>
-
-</main>
-
+            <aside id="aside-text">
+                <h2 style="padding-bottom: 10px;">Vancouver, BC</h2>
+                <img src="images/Coat_of_arms_of_Vancouver.svg.png" alt="Vancouver coat of arms">
+                <!-- example of inline element -->
+                <p>is a vibrant coastal city known for its stunning mix of ocean, mountains, and urban life. It offers a uniquely mild climate for Canada, with rainy winters and warm, pleasant summers. The city thrives on cultural diversity, reflected in its neighborhoods, food, and festivals. Outdoor activities are everywhere—cycling the seawall, hiking in the North Shore mountains, or relaxing at Kits Beach. Vancouver blends natural beauty, innovation, and a relaxed West Coast vibe.</p>
+            </aside>
+        </div>
+    </main>
 
     <footer>
-    Vojtech Kousal 2025  
+        <p>Vojtech Kousal 2025 </p>
     </footer>
 
 </body>
