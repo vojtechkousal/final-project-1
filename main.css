@@ -1,4 +1,3 @@
-/* ========== GLOBAL RESET ========== */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,13 +9,13 @@ body {
     background: radial-gradient(circle, rgba(250, 250, 250, 1) 70%, rgba(222, 222, 222, 1) 100%);
 }
 
-/* ========== HEADER & NAVIGATION ========== */
 header {
     background-color: white;
     padding: 10px 0;
     border-bottom: 2px solid rgb(245, 40, 238);
 }
 
+/* example of id selector*/
 #main-nav {
     max-width: 1000px;
     margin: auto;
@@ -25,7 +24,6 @@ header {
     align-items: center;
 }
 
-/* example of id selector*/
 #header-nametag a {
     font-size: 24px;
     font-weight: bold;
@@ -52,7 +50,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* ========== MAIN LAYOUT ========== */
 .main-container {
     max-width: 1000px;
     margin: auto;
@@ -72,23 +69,20 @@ nav ul li a:hover {
     font-size: 1.2em;
 }
 
-/* ========== GALLERY + ASIDE LAYOUT ========== */
 .content-row {
     display: grid;
-    grid-template-columns: 2fr 1fr;    /* left | right */
+    grid-template-columns: 2fr 1fr; 
     gap: 20px;
     margin-top: 20px;
 }
 
-/* ========== GALLERY GRID ========== */
 #gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);  /* 3 columns */
-    grid-auto-rows: 140px;                  /* base row height */
+    grid-template-columns: repeat(3, 1fr); 
+    grid-auto-rows: 140px;                 
     gap: 10px;
 }
 
-/* Base style for all images */
 .gallery-image {
     width: 100%;
     height: 100%;
