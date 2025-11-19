@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vojta in Vancouver</title>
     <link rel="stylesheet" href="./main.css">
+     <style>
+        body {
+            background-color: lightgrey;
+        }
+    </style>
 </head>
 <body>
     <header>
         <nav id="main-nav" aria-label="Main navigation">
-            <a href="#">VK</a>
-            <span id="spacer"></span>
+            <div id="header-nametag">
+                <a href="#">ViV</a>
+            </div>
+
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -21,26 +28,37 @@
 
     </header>
     
-    <main>
-        <div id="main-article">
-            <article>
-                <h1>TITLE</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt tempora dolore itaque officia doloribus praesentium architecto iste. Eligendi, aliquam similique laboriosam incidunt tempore aliquid quaerat dolorum architecto quibusdam, repudiandae repellat dolorem sint, eos laudantium tempora voluptatem quas. Cum quaerat odio voluptates adipisci fugiat veniam ratione vel iure beatae eligendi illum repudiandae numquam corrupti facilis nemo delectus, rem alias minus, eveniet culpa? Sapiente itaque aperiam molestias porro adipisci sequi dolorum cumque?</p>
-            </article>
-            <img src="./images/pic1.jpg"> 
-        </div>
+    <main class="main-container">
+    
+    <article id="main-article">
+        <h1>Vojta in Vancouver</h1>
+        <p>Hello, I am Vojta and this is going to be my blog soon.</p>
+    </article>
 
-        <div id="aside-text">
-            <aside>
-                <h2>TITLE 2</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit non nostrum autem, tenetur veritatis deserunt assumenda ab repellat nam qui commodi, quasi at quas, fugiat nobis. Rerum veniam iure et!</p>
-            </aside>
-        </div>
+    <!-- New layout row -->
+    <div class="content-row">
 
-    </main>
+        <section id="gallery">
+            <img src="./images/van1.jpg" alt="Vancouver photo 1" class="gallery-image tall">
+            <img src="./images/van2.jpg" alt="Vancouver photo 2" class="gallery-image wide">
+            <img src="./images/van3.jpg" alt="Vancouver photo 3" class="gallery-image square">
+            <img src="./images/van4.jpg" alt="Vancouver photo 4" class="gallery-image tall">
+            <img src="./images/van5.jpg" alt="Vancouver photo 5" class="gallery-image wide">
+            
+        </section>
+
+        <aside id="aside-text">
+            <h2>TITLE 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. ...</p>
+        </aside>
+
+    </div>
+
+</main>
+
 
     <footer>
-        
+    Vojtech Kousal 2025  
     </footer>
 
 </body>
